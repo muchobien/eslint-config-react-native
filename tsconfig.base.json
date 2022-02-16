@@ -29,7 +29,8 @@
     "alwaysStrict": true /* Parse in strict mode and emit "use strict" for each source file. */,
     "baseUrl": ".",
     "paths": {
-      "*": ["src/*"]
+      "@app": ["./src"],
+      "@app/*": ["./src/*"]
     },
     "plugins": [
       {
