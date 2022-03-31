@@ -1,6 +1,6 @@
 {
   "name": "@muchobien/eslint-config-react-native",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "Pluggable ESLint config for React Native",
   "main": "index.js",
   "author": "Rodrigo Sanabria",
