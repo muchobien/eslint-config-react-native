@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'react', 'react-native', '@nozbe/nozbe'],
+  plugins: ['@typescript-eslint', 'react', 'react-native', 'jsx-expressions'],
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -36,7 +36,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     'import/no-unresolved': ['error', { ignore: ['@env$'] }],
     'object-shorthand': ['error', 'always'],
-    '@nozbe/nozbe/no-jsx-andand': 'error',
+    'jsx-expressions/strict-logical-expressions': 'error',
   },
   settings: {
     'import/ignore': ['node_modules/react-native/index\\.js$'],
