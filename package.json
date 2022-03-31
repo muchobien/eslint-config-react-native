@@ -8,6 +8,7 @@
   "private": false,
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "7.17.3",
+    "@nozbe/eslint-plugin-nozbe": "1.0.0",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.16.0",
     "babel-plugin-module-resolver": "4.1.0",

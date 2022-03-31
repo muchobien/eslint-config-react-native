@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'react', 'react-native'],
+  plugins: ['@typescript-eslint', 'react', 'react-native', '@nozbe/nozbe'],
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -26,7 +26,7 @@ module.exports = {
         'ts-expect-error': 'allow-with-description',
       },
     ],
-    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -36,6 +36,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     'import/no-unresolved': ['error', { ignore: ['@env$'] }],
     'object-shorthand': ['error', 'always'],
+    '@nozbe/nozbe/no-jsx-andand': 'error',
   },
   settings: {
     'import/ignore': ['node_modules/react-native/index\\.js$'],

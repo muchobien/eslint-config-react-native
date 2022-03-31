@@ -194,6 +194,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@nozbe/eslint-plugin-nozbe@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nozbe/eslint-plugin-nozbe/-/eslint-plugin-nozbe-1.0.0.tgz#a8e7bf64d21d031a4703f1a6217bf78572f52f88"
+  integrity sha512-nG0v3UMCCKh5mpDYhDNOu1E52gVu9MTgoOag5y9PeLzUL79EJUtU3UoOZ3IRx/L0xpEbisIIoA623umIiBZaCg==
+
 "@types/json-schema@^7.0.9":
   version "7.0.9"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
